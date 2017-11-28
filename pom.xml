@@ -4,7 +4,7 @@
   <groupId>com.devops.app</groupId>
   <artifactId>SampleJar</artifactId>
   <packaging>jar</packaging>
-  <version>3.0</version>
+  <version>${ReleaseVersion}</version>
   <name>SampleJar</name>
   <url>http://maven.apache.org</url>
   <dependencies>
