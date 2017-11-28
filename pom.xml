@@ -5,7 +5,7 @@
   <artifactId>SampleJar</artifactId>
   <packaging>jar</packaging>
   <version>${ReleaseVersion}</version>
-  <name>SampleJar</name>
+  <name>SampleJar-${ReleaseVersion}</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
