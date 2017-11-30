@@ -8,11 +8,7 @@ node{
     def readContent = readFile 'sample.txt'
     
     println(readContent)
-
-    stage("code check out"){
-        println("Code checkout in this stage")
-        //git 'https://github.com/EMERDs/SampleProj.git'
-    }
+    
     stage("maven buld"){
         println("Maven build is running")
         bat 'mvn clean install -DReleaseVersion=2.0.0'
